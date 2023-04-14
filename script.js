@@ -10,3 +10,8 @@ if (primerNumero > segundoNumero) {
 } else {
     alert(primerNumero + ' es menor que ' + segundoNumero)
 }
+if (segundoNumero % 2 == 1) {
+    alert(segundoNumero + ' es impar ')
+} else {
+    alert(segundoNumero + ' es par ')
+}
