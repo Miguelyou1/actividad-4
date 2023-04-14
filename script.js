@@ -3,3 +3,5 @@ alert('Hola, a continuación se le pedirá un número para realizar unas operaci
 primerNumero = prompt("introduzca un numero");
 let segundoNumero;
 segundoNumero = prompt('introduzca un numero')
+if (primerNumero > segundoNumero) {
+    alert(primerNumero + ' es mayor que ' + segundoNumero)
